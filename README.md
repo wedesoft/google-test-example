@@ -18,3 +18,11 @@ wget https://googletest.googlecode.com/files/gtest-1.7.0.zip
 unzip gtest-1.7.0.zip
 explorer google-test-example.sln
 ```
+
+# Also see
+
+* [Google Test][1]
+* [Boost Test][2]
+
+[1]: https://code.google.com/p/googletest/
+[2]: http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html
