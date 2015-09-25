@@ -1,3 +1,8 @@
 factorial
 .*.un~
 *.o
+*.filters
+*.sdf
+*.suo
+Debug
+gtest-1.7.0
