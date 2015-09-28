@@ -16,7 +16,9 @@ git clone https://github.com/wedesoft/google-test-example.git
 cd google-test-example
 wget https://googletest.googlecode.com/files/gtest-1.7.0.zip
 unzip gtest-1.7.0.zip
-explorer google-test-example.sln
+wget https://googlemock.googlecode.com/files/gmock-1.7.0.zip
+unzip gmock-1.7.0.zip
+explorer *.sln
 ```
 
 # Also see
