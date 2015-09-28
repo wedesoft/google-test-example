@@ -1,16 +1,20 @@
-GTEST_DIR=/usr/src/gtest
+GTEST=/usr/src/gtest
+GMOCK=/usr/src/gmock
 
-check: factorial
-	./factorial
+check: sample
+	./sample
 
-factorial: factorial.o gtest-all.o
-	g++ -o $@ factorial.o gtest-all.o -lpthread
+sample: sample.o gtest-all.o gmock-all.o
+	g++ -o $@ sample.o gtest-all.o gmock-all.o -lpthread
 
-factorial.o: factorial.cc
+sample.o: sample.cc
 	g++ -c -o $@ $<
 
-gtest-all.o: $(GTEST_DIR)/src/gtest-all.cc
-	g++ -c -I$(GTEST_DIR) -o $@ $<
+gtest-all.o: $(GTEST)/src/gtest-all.cc
+	g++ -c -I$(GTEST) -o $@ $<
+
+gmock-all.o: $(GMOCK)/src/gmock-all.cc
+	g++ -c -I$(GMOCK) -o $@ $<
 
 clean:
-	rm -f factorial *.o
+	rm -f sample *.o

@@ -1,8 +1,9 @@
-factorial
-.*.un~
+sample
 *.o
 *.filters
 *.sdf
 *.suo
+.*.swp
+.*.un~
 Debug
 gtest-1.7.0
