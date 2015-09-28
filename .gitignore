@@ -3,7 +3,10 @@ sample
 *.filters
 *.sdf
 *.suo
+*.opensdf
 .*.swp
 .*.un~
 Debug
+*.zip
 gtest-1.7.0
+gmock-1.7.0
