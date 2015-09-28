@@ -23,8 +23,11 @@ explorer *.sln
 
 # Also see
 
-* [Google Test][1]
-* [Boost Test][2]
+* [Google Test][1], [Google Mock][2]
+* [Boost Test][3]
+* [Keep console open in MSVC++][4]
 
 [1]: https://code.google.com/p/googletest/
-[2]: http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html
+[2]: https://code.google.com/p/googlemock/
+[3]: http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html
+[4]: http://stackoverflow.com/questions/454681/how-to-keep-the-console-window-open-in-visual-c
